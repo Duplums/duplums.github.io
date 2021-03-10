@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Benoit Dufumier"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "PhD Student in Deep Learning for NeuroImaging"
   location         : "CEA Saclay, France"
   employer         :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/benoit-dufumier"
   orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
