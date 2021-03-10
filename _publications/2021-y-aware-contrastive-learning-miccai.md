@@ -8,7 +8,9 @@ venue: 'Submitted to MICCAI'
 paperurl:
 citation: 
 ---
+
 #Abstract
+
 Traditional supervised learning with deep neural networks requires a tremendous amount of labelled data to converge to a good solution. 
 For 3D medical images, it is often impractical to build a large homogeneous annotated dataset for a specific pathology. 
 Self-supervised methods offer a new way to learn a representation of the images in an unsupervised manner with a neural network. 
@@ -19,7 +21,9 @@ Specifically, we improve the positive sampling during pre-training by adding mor
 assuming they share similar discriminative semantic features.
 With our method, a 3D CNN model pre-trained on $10^4$ multi-site healthy brain MRI scans can extract relevant features for three classification tasks: schizophrenia, 
 bipolar diagnosis and Alzheimer's detection. When fine-tuned, it also outperforms 3D CNN trained from scratch on these tasks, as well as state-of-the-art self-supervised methods. 
-Our code is made publicly available  [here](https://github.com/Duplums/yAwareContrastiveLearning).
+
+
+[[Code](https://github.com/Duplums/yAwareContrastiveLearning)][[Paper]()]
 
 # y-Aware Contrastive Learning 
 Official Pytorch Implementation for y-Aware Contrastive Learning [*submitted to MICCAI 2021*]
@@ -59,9 +63,10 @@ We also pre-processed the T1-MRI scan with CAT12 toolbox and all the images pass
 
 **Source**  | **# Subjects** | **Diagnosis** | **Age** | **Sex (\%F)** | **# Sites**
 :---: | :---: | :---: | :---: | :---: | :---: | 
-[ADNI-GO](http://adni.loni.usc.edu/about/adni-go)  | 387 | <p>Alzheimer<br>Control</p> | <p>75 ± 8<br>75 ± 5</p>  | <p>52<br>51</p>  | 57 
-[SCHIZCONNECT-VIP](http://schizconnect.org) | 605 | <p>Schizophrenia<br>Control</p> | <p>34 ± 12<br>32 ± 12</p>  | <p>27<br>47</p>  | 4 
-BIOBD | 605 | <p>Bipolar<br>Control</p> | <p>40 ± 12<br>40 ± 13</p>  | <p>55<br>56</p>  | 8 
+[ADNI-GO](http://adni.loni.usc.edu/about/adni-go)  | 387 | Alzheimer<br>Control | 75 ± 8<br>75 ± 5  | 52<br>51  | 57 
+[SCHIZCONNECT-VIP](http://schizconnect.org) | 605 | Schizophrenia<br>Control | 34 ± 12<br>32 ± 12  | 27<br>47  | 4 
+BIOBD | 605 | Bipolar<br>Control | 40 ± 12<br>40 ± 13  | 55<br>56 | 8 
+
 ## Representation Quality
 ### Unsupervised Results
 ![Alt text](../images/miccai2021-constrastive-learning/unsupervised_perf_scz_bip_ad_N10K.png)

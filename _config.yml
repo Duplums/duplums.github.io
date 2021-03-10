@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Benoit Dufumier"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Benoit Dufumier"
 description              : &description "personal description"
 url                      : https://duplums.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Benoit Dufumier"
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   bio              : "PhD Student in Deep Learning for NeuroImaging"
   location         : "CEA Saclay, France"
   employer         :

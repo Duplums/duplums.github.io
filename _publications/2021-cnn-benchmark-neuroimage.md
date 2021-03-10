@@ -3,7 +3,7 @@ title: "Benchmarking CNN for 3D MRI Classification and Regression: Architectures
 collection: publications
 permalink: /publication/2021-cnn-benchmark-neuroimage
 excerpt:
-date: 2021-06
+date: 2021-06-01
 venue: 'Submitted to NeuroImage'
 paperurl:
 citation: 
@@ -54,18 +54,20 @@ We focused our analysis only on HC and Schizophrenia for the clinical datasets.
 
 **Source**  | **# Subjects** | **Diagnosis** | **Age** | **Sex (\%F)** | **# Sites**
 :---: | :---: | :---: | :---: | :---: | :---: | 
-[BSNIP](https://academic.oup.com/schizophreniabulletin/article/40/Suppl_2/S131/1933599)  | 394 | <p>Schizophrenia<br>Control</p> | <p>34 ± 12<br>38 ± 13</p>  | <p>44<br>58</p>  | 5 
-[SCHIZCONNECT-VIP](http://schizconnect.org) | 605 | <p>Schizophrenia<br>Control</p> | <p>34 ± 12<br>32 ± 12</p>  | <p>27<br>47</p>  | 4 
-*More to come* | 
+[BSNIP](https://academic.oup.com/schizophreniabulletin/article/40/Suppl_2/S131/1933599)  | 394 | Schizophrenia<br>Control | 34 ± 12<br>38 ± 13  | 44<br>58  | 5 
+[SCHIZCONNECT-VIP](http://schizconnect.org) | 605 | Schizophrenia<br>Control | 34 ± 12<br>32 ± 12  | 27<br>47  | 4 
+*More to come* |
+
 ### Links to the Pre-Processed Datasets
-**Dataset** | **Pre-Processing** | **# Images** | Target|  **Link** 
-:---:|:---:|:---:|:---:|:---:|
+
+**Dataset** | **Pre-Processing** | **# Images** | **Target**|  **Link** 
+|:---:|:---:|:---:|:---:|:---:|
 BHB-10K |  Quasi-Raw | ?  | Age + Sex | ? |
 BHB-10K | VBM | ? | Age + Sex | ? | 
 SCHIZCONNECT-VIP | Quasi-Raw | ? | SCZ vs CTL | ? |
 SCHIZCONNECT-VIP | VBM | ? | SCZ vs CTL | ? |
-*BSNIP (Test Set)* | Quasi-Raw | ? | <p>SCZ vs CTL<br>Age+Sex</p> | ? |
-*BSNIP (Test Set)* | VBM | ? | <p>SCZ vs CTL<br>Age+Sex</p> | ? |
+*BSNIP (Test Set)* | Quasi-Raw | ? | SCZ vs CTL<br>Age+Sex | ? |
+*BSNIP (Test Set)* | VBM | ? | SCZ vs CTL<br>Age+Sex | ? |
 
   
 ## CNN Models
@@ -94,9 +96,10 @@ SCZ vs HC | SCHIZCONNECT-VIP | BSNIP
 ### Best Final Results
 
 We reported the results for 3 (resp. 5) runs on 3 (resp. 5) Stratified Shuffle Splits at N=10K (resp. N=500).
-We stratified according to the label to predict. All the models
+We stratified according to the label to predict. The hyperparameters for the linear models are tuned using grid search. 
 
 #### Linear Model Baseline
+
 **Task** | **Model** | **# Training Samples**| **Pre-Processing** | **AUC**(%) | **MAE**
 |:---: | :---: |:---: | :---: | :---: | :---: |
 Age | Ridge | 10K |  VBM | N/A | 4.65±0.02 

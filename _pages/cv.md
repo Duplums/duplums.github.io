@@ -11,22 +11,28 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Machine Learning, CEA Saclay, Université Paris-Saclay, 2022 *(expected)*
+* M.Eng. in Applied Mathematics, CentraleSupélec, 2018
+* M.S.c in Applied Mathematics, [Option "Analysis, Modelisation, Simulation"](https://www.universite-paris-saclay.fr/formation/master/mathematiques-et-applications/m2-analyse-modelisation-simulation), Université Paris-Saclay, 2018
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2020-*current*:  PhD Student at [NeuroSpin](https://joliot.cea.fr/drf/joliot/en/Pages/research_entities/NeuroSpin.aspx), CEA Saclay
+  * Topic: Transfer Learning in NeuroImaging: from big heterogeneous data to small homogeneous cohorts
+* 2019-2020: Data scientist at [Anamnèse](https://pro.anamnese.care/en/anamnese-la-plateforme-e-sante-pour-ameliorer-les-parcours-de-soin). Main missions include:
   
+  * the re-definition and formalization of a medical knowledge graph including more than 40000 diseases
+  * the conception and implementation of reinforcement learning algorithms applied on the home-made graph 
+  * the conception of several metrics to compare the efficiency of our algorithms
+  * the implementation of back-end tests to perform the comparison between several machine learning algorithms
+  
+* May-October 2018: Research Internship in EECS at University of Michigan
+  * Topic: Classification of Solar Flares using Time-Series SDO/HMI Images and Deep Learning model
+  * University of Michigan
+  * Supervisor: Distinguished Professor Alfred O. Hero
+  * Associated paper: Chen, Yang, et al. "Identifying solar flare precursors using time series of SDO/HMI Images and SHARP Parameters." Space Weather 17.10 (2019): 1404-1426.'
+  
+<!--
 Skills
 ======
 * Skill 1
@@ -57,3 +63,4 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+-->
