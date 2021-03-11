@@ -5,7 +5,7 @@ permalink: /publication/2018-solar-flares-space-weather
 excerpt: 
 date: 2019-10-1
 venue: 'Space Weather'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+paperurl: 'https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2019SW002214'
 citation: 'Chen, Yang, et al. "Identifying solar flare precursors using time series of SDO/HMI Images and SHARP Parameters." Space Weather 17.10 (2019): 1404-1426.'
 ---
 

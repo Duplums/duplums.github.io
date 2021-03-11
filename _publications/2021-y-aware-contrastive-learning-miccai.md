@@ -9,7 +9,10 @@ paperurl:
 citation: 
 ---
 
-#Abstract
+![Alt text](../images/miccai2021-constrastive-learning/graphical-abstract-miccai2021.jpg)
+
+
+##Abstract
 
 Traditional supervised learning with deep neural networks requires a tremendous amount of labelled data to converge to a good solution. 
 For 3D medical images, it is often impractical to build a large homogeneous annotated dataset for a specific pathology. 
@@ -24,11 +27,6 @@ bipolar diagnosis and Alzheimer's detection. When fine-tuned, it also outperform
 
 
 [[Code](https://github.com/Duplums/yAwareContrastiveLearning)][[Paper]()]
-
-# y-Aware Contrastive Learning 
-Official Pytorch Implementation for y-Aware Contrastive Learning [*submitted to MICCAI 2021*]
-
-![Alt text](../images/miccai2021-constrastive-learning/graphical-abstract-miccai2021.jpg)
 
 
 ## Data
